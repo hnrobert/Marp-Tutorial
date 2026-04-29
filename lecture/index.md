@@ -596,9 +596,9 @@ Plus a brief explanation of how static websites work.
 
 ## Resources
 
-- Marp: <https://marp.app/>
+- Marp: <https://marp.app>
 - Marp VSCode Extension: search "Marp for VS Code"
-- Visual Studio Code: <https://code.visualstudio.com/>
+- Visual Studio Code: <https://code.visualstudio.com>
 - Claude Code: <https://claude.ai/code>
 - This project's Skill: [https://skillsmp.com](https://skillsmp.com/skills/davila7-claude-code-templates-cli-tool-components-skills-creative-design-marp-slide-skill-md)
 
