@@ -159,13 +159,26 @@ Your Name
 
 ---
 
+### An Easier Approach
+
+![bg right 100%](../assets/image/github-download-zip.png)
+
+Download the material for this lecture
+
+1. Go to `hnrobert/Marp-Tutorial`
+   (Find it on our moodle page)
+2. Click the green "Code" button
+3. Select "Download ZIP".
+
+---
+
 ## Step 3: Preview
 
-Press `Ctrl+Shift+V` (Windows) / `Cmd+Shift+V` (Mac)
+> You should now see a fully rendered slide through...
 
-> You should now see a fully rendered slide.
+![vscode-preview-demo](../assets/image/vscode-preview-demo.png)
 
-Yes, it's that simple.
+> Yes, it's that simple.
 
 ---
 
@@ -207,17 +220,23 @@ And you can use **custom CSS** for anything.
 
 ## Images & Layouts
 
+![bg right 90%](../assets/image/vscode-extension-cover.png)
+
+Left: text.
+Right: image taking 90% of the width.
+
+You see what the text reflects directly.
+
 ```markdown
-## Key Insight
+## Images & Layouts
 
-![bg right:40%](chart.png)
+![bg right:90%](chart.png)
 
-- Marp converts Markdown to slides
-- AI generates the content
-- Skills ensure consistent quality
+Left: text.
+Right: image taking 90% of the width.
+
+You see what the text reflects directly.
 ```
-
-Left: text. Right: image. One line of code.
 
 ---
 
@@ -227,7 +246,7 @@ We can write slides in plain text.
 
 But... we still need to **write the content**.
 
-> Who's going to type 30 slides in 8 minutes?
+> Who's going to type 20 slides in 8 minutes?
 
 ---
 
@@ -251,7 +270,7 @@ So AI can generate an entire slide deck?
 
 ## The AI Output Problem
 
-"Hey Claude, make me 30 slides about this Marp lecture."
+`"Hey Claude, make me 20 slides about this Marp lecture."`
 
 Result:
 
@@ -328,7 +347,7 @@ Structured, consistent output
 
 ## The `marp-slide` Skill
 
-In this project's `.claude/skills/marp-slide/`:
+In the material project's `.claude/skills/marp-slide/`:
 
 - **7 theme CSS files** — ready to use
 - **Syntax references** — complete Marp docs
@@ -378,21 +397,17 @@ Describe your content (we've prepared a prompt for you):
 
 ```text
 /marp-slide
-Make a 15-slide presentation about
-"How to use Marp + AI to make slides"
-using the tech theme.
+My name: [your name here]
+
+Make a 20-slide presentation introducing marp,
+start with why traditional slides are painful,
+introduce Marp as the solution,
+walk through install/generate/preview/export steps.
+
+Save the output as practice/index.md
 ```
 
----
-
-## What Happens Behind the Scenes
-
-AI will:
-
-1. Load the tech theme CSS via `@import`
-2. Structure content with proper headings
-3. Keep proper number of bullets per slide
-4. Gradually generate a complete `.md` file
+> We've prepared the prompt for you. Just copy-paste `prompts/generate-marp.md` and fill in your name.
 
 ---
 
@@ -481,31 +496,49 @@ The Skill mindset works everywhere:
 
 ---
 
-## Step 6: Publish to GitHub
+---
 
-VSCode does everything in one click:
+## Step 6: Publish to your own GitHub
 
-1. Go to **Source Control** panel (`Ctrl+Shift+G`)
-2. Click **Publish to GitHub**
-3. Choose **Public** repository, sign in if needed
-4. Confirm — VSCode initializes, commits & pushes automatically
+- Go to **Source Control** panel (`Ctrl+Shift+G`, same on macOS)
+- Click **Publish to GitHub**, And choose the **second option** for a **public repo**.
+
+![publish](../assets/image/vscode-publish-to-github.png)
+
+---
+
+## Step 6: Select All Files
+
+Select all files, and wait for a little while for VSCode to initialize the repo
+
+![select-all](../assets/image/vscode-select-all-files.png)
+
+---
+
+## Step 6: Mind the Pop-Up
+
+VSCode **initializes, commits & pushes** everything automatically.
+Click the notification at the right bottom to view your repo on GitHub:
+
+![mind-the-notification](../assets/image/vscode-open-in-github-pop-up.png)
 
 > Your slides are now on GitHub!
-
-![bg right:40%](../assets/image/github-publish.png)
 
 ---
 
 ## Step 7: Enable GitHub Pages
 
-1. Go to your repository on **github.com**
+![bg right 110%](../assets/image/github-pages-settings.png)
+
+1. Go to your repository on **github**
 2. Click **Settings** tab
 3. Scroll to **Pages** in the left sidebar
-4. Under "Source", select **Deploy from a branch**
-5. Choose **main** branch, folder **/ (root)**
+4. Under "Source", select
+   **Deploy from a branch**
+5. Choose **main** branch, folder **/**
 6. Click **Save**
 
-> Wait a minute (literally), then your site is live at `username.github.io/repo-name`
+> Wait a minute (literally), then your site would be live at `user.github.io/repo-name`
 
 ---
 
@@ -567,7 +600,7 @@ Plus a brief explanation of how static websites work.
 - Marp VSCode Extension: search "Marp for VS Code"
 - Visual Studio Code: <https://code.visualstudio.com/>
 - Claude Code: <https://claude.ai/code>
-- This project's Skill: `.claude/skills/marp-slide/`
+- This project's Skill: [https://skillsmp.com](https://skillsmp.com/skills/davila7-claude-code-templates-cli-tool-components-skills-creative-design-marp-slide-skill-md)
 
 ---
 
