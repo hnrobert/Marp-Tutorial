@@ -6,7 +6,7 @@ size: 16:9
 ---
 
 <style>
-@import '.claude/skills/marp-slide/assets/theme-tech.css';
+@import '../.claude/skills/marp-slide/assets/theme-tech.css';
 </style>
 
 <!-- _class: lead -->
@@ -79,7 +79,7 @@ Just **text → slides**.
 
 # Enter Marp
 
-![vscode-extension-cover](image/Slides/vscode-extension-cover.png)
+![vscode-extension-cover](../assets/image/vscode-extension-cover.png)
 
 ---
 
@@ -174,7 +174,7 @@ Yes, it's that simple.
 <div class="columns">
 <div class="column">
 
-![vscode-marp-export](image/Slides/vscode-marp-export.png)
+![vscode-marp-export](../assets/image/vscode-marp-export.png)
 
 </div>
 <div class="column">
@@ -352,7 +352,7 @@ In this project's `.claude/skills/marp-slide/`:
 
 ## Claude Code Instructions
 
-![bg right:50%](image/Slides/marp-slide-skill-use-cc.png)
+![bg right:50%](../assets/image/marp-slide-skill-use-cc.png)
 
 1. Open the `Marp` folder as your vscode workspace / `cd` into it in your terminal
 2. Open Claude Code sidebar /
@@ -363,7 +363,7 @@ In this project's `.claude/skills/marp-slide/`:
 
 ## GitHub Copilot
 
-![bg right:50%](image/Slides/marp-slide-use-copilot.png)
+![bg right:50%](../assets/image/marp-slide-use-copilot.png)
 
 1. Open the Copilot Chat panel, if not opened, click the icon in the top right of VSCode
 2. Drag and drop the `SKILL.md` file from the `marp-slide` folder to the chat input
@@ -372,7 +372,7 @@ In this project's `.claude/skills/marp-slide/`:
 
 ## The Prompt
 
-![bg right:50%](image/Slides/marp-slide-skill-prompt.png)
+![bg right:50%](../assets/image/marp-slide-skill-prompt.png)
 
 Describe your content (we've prepared a prompt for you):
 
@@ -473,7 +473,7 @@ Now let's put your slides online — so anyone can view them.
 
 > This creates a self-contained `.html` file with everything embedded.
 
-![bg right:40%](image/Slides/export-html.png)
+![bg right:40%](../assets/image/export-html.png)
 
 ---
 
@@ -485,7 +485,7 @@ In VSCode:
 2. `Ctrl+Shift+P` / `Cmd+Shift+P` → `Git: Initialize Repository`
 3. Your project is now a Git repo
 
-![bg right:40%](image/Slides/git-init.png)
+![bg right:40%](../assets/image/git-init.png)
 
 ---
 
@@ -496,7 +496,7 @@ In VSCode:
 3. Type a commit message: `"Initial commit"`
 4. Click **Commit**
 
-![bg right:40%](image/Slides/git-commit.png)
+![bg right:40%](../assets/image/git-commit.png)
 
 ---
 
@@ -508,7 +508,7 @@ In VSCode:
 
 > Your slides are now on GitHub!
 
-![bg right:40%](image/Slides/github-publish.png)
+![bg right:40%](../assets/image/github-publish.png)
 
 ---
 
@@ -549,7 +549,7 @@ Put this file in your repository root:
 
 Commit and push it to GitHub.
 
-![bg right:40%](image/Slides/launcher-page.png)
+![bg right:40%](../assets/image/launcher-page.png)
 
 ---
 
@@ -567,7 +567,7 @@ Page opens:
 
 > One page to rule all your Marp presentations.
 
-![bg right:40%](image/Slides/launcher-flow.png)
+![bg right:40%](../assets/image/launcher-flow.png)
 
 ---
 
@@ -580,7 +580,7 @@ Page opens:
 
 > Congratulations — your Marp slides are live on the internet.
 
-![bg right:40%](image/Slides/launcher-demo.png)
+![bg right:40%](../assets/image/launcher-demo.png)
 
 ---
 
