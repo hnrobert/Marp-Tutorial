@@ -248,7 +248,7 @@ We can write slides in plain text.
 
 But... we still need to **write the content**.
 
-> Who's going to type 20 slides in 8 minutes?
+> Who's going to type 20 slides in 10 minutes?
 
 ---
 
@@ -459,9 +459,9 @@ The problem is **how people use it**.
 ## Practical Tips
 
 - **Specify the theme** — "use tech theme"
-- **Give a page count** — "around 15 slides"
+- **Give a page count** — "around 20 slides"
 - **Provide an outline** — list the key points
-- **Demand consistency** — "3-5 bullets per slide"
+- **Demand consistency** — "3-5 bullets per slide at most"
 - **Iterate** — generate first, then refine
 
 ---
@@ -502,7 +502,7 @@ The Skill mindset works everywhere:
 
 ---
 
-## Step 6: Publish to your own GitHub
+## Publish to your own GitHub
 
 - Go to **Source Control** panel (`Ctrl+Shift+G`, same on macOS)
 - Click **Publish to GitHub**, And choose the **second option** for a **public repo**.
@@ -511,7 +511,7 @@ The Skill mindset works everywhere:
 
 ---
 
-## Step 6: Select All Files
+## Select All Files
 
 Select all files, and wait for a little while for VSCode to initialize the repo
 
@@ -519,7 +519,7 @@ Select all files, and wait for a little while for VSCode to initialize the repo
 
 ---
 
-## Step 6: Mind the Pop-Up
+## Mind the Pop-Up
 
 VSCode **initializes, commits & pushes** everything automatically.
 Click the notification at the right bottom to view your repo on GitHub:
@@ -532,7 +532,7 @@ Click the notification at the right bottom to view your repo on GitHub:
 
 ## Step 7: Enable GitHub Pages
 
-![bg right 110%](../assets/image/github-pages-settings.png)
+![bg right 100%](../assets/image/github-pages-settings.png)
 
 1. Go to your repository on **github**
 2. Click **Settings** tab
