@@ -12,7 +12,7 @@ size: 16:9
 <!-- _class: lead -->
 <!-- _paginate: false -->
 
-# 10 Minutes to Stage
+# 60 Minutes to Stage
 
 **Zero Slides. Zero Panic.**
 
@@ -20,7 +20,7 @@ Siyuan He
 
 ---
 
-## T-minus 10 Minutes
+## T-minus 60 Minutes
 
 You're about to present in front of 50 people.
 
@@ -38,7 +38,7 @@ Open PowerPoint. Pick a template.
 
 Drag. Resize. Align. Repeat.
 
-> After 8 minutes: you have **2 slides** and a headache.
+> After 10 minutes: you have **2 slides** and a headache.
 > The problem isn't the tool. It's the **workflow**.
 
 ---
@@ -46,6 +46,8 @@ Drag. Resize. Align. Repeat.
 ## Option B: Ask ChatGPT
 
 "Make me a PPT about today's Marp lecture."
+
+You tried again and again, after another 10 minutes:
 
 You get... a wall of text, weird formatting, no design, not editable.
 
@@ -369,7 +371,17 @@ In the material project's `.claude/skills/marp-slide/`:
 
 ---
 
-## Claude Code Instructions
+## GitHub Copilot
+
+![bg right:50%](../assets/image/marp-slide-use-copilot.png)
+
+1. Open the Copilot Chat panel.
+   If not opened, click the icon in the top right of VSCode
+2. Drag and drop the `SKILL.md` file from the `.claude/marp-slide` folder to the chat input
+
+---
+
+## Claude Code
 
 ![bg right:50%](../assets/image/marp-slide-skill-use-cc.png)
 
@@ -380,15 +392,6 @@ In the material project's `.claude/skills/marp-slide/`:
 
 ---
 
-## GitHub Copilot
-
-![bg right:50%](../assets/image/marp-slide-use-copilot.png)
-
-1. Open the Copilot Chat panel, if not opened, click the icon in the top right of VSCode
-2. Drag and drop the `SKILL.md` file from the `marp-slide` folder to the chat input
-
----
-
 ## The Prompt
 
 ![bg right:50%](../assets/image/marp-slide-skill-prompt.png)
@@ -396,7 +399,6 @@ In the material project's `.claude/skills/marp-slide/`:
 Describe your content (we've prepared a prompt for you):
 
 ```text
-/marp-slide
 My name: [your name here]
 
 Make a 20-slide presentation introducing marp,
@@ -407,7 +409,9 @@ walk through install/generate/preview/export steps.
 Save the output as practice/index.md
 ```
 
-> We've prepared the prompt for you. Just copy-paste `prompts/generate-marp.md` and fill in your name.
+> You may find the prompt at
+> `prompts/generate-marp.md`.
+> Mind the placeholder.
 
 ---
 
