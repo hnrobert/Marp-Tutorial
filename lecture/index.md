@@ -126,7 +126,7 @@ Open VSCode now. Follow along.
 
 ---
 
-## Step 1: Install Marp Extension
+## First of all: Install Marp Extension
 
 1. Open VSCode
 2. Go to Extensions (`Ctrl+Shift+X` / `Cmd+Shift+X`)
@@ -137,7 +137,7 @@ Open VSCode now. Follow along.
 
 ---
 
-## Step 2: Create Your First File
+## Create Your First File
 
 Create a new file called `demo.md` and type:
 
@@ -174,7 +174,7 @@ Download the material for this lecture
 
 ---
 
-## Step 3: Preview
+## Preview, right now
 
 > You should now see a fully rendered slide through...
 
@@ -184,7 +184,7 @@ Download the material for this lecture
 
 ---
 
-## Step 4: Export
+## Try Exporting
 
 <div class="columns">
 <div class="column">
@@ -195,7 +195,7 @@ Download the material for this lecture
 <div class="column">
 
 1. Click the Marp icon in the top right of the markdown workspace
-2. Select "Export slide deck..."
+2. Select "**Export slide deck...**"
 3. Choose format:
    **PDF / PPTX / HTML / PNG**
 
@@ -530,7 +530,7 @@ Click the notification at the right bottom to view your repo on GitHub:
 
 ---
 
-## Step 7: Enable GitHub Pages
+## Enable GitHub Pages
 
 ![bg right 100%](../assets/image/github-pages-settings.png)
 
