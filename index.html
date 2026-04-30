@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Marp Tutorial</title>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       background: #0d1117;
@@ -15,29 +21,38 @@
       align-items: center;
       justify-content: center;
     }
+
     .container {
       max-width: 560px;
       width: 100%;
       padding: 32px;
       text-align: center;
     }
+
     h1 {
       color: #58a6ff;
       font-size: 28px;
       margin-bottom: 8px;
       font-weight: 700;
     }
-    h1::before { content: '# '; color: #7ee787; }
+
+    h1::before {
+      content: '# ';
+      color: #7ee787;
+    }
+
     p.subtitle {
       color: #8b949e;
       font-size: 14px;
       margin-bottom: 32px;
     }
+
     .buttons {
       display: flex;
       gap: 16px;
       margin-bottom: 32px;
     }
+
     .btn {
       flex: 1;
       padding: 20px 24px;
@@ -53,20 +68,24 @@
       align-items: center;
       gap: 8px;
     }
+
     .btn:hover {
       background: #1f2937;
       border-color: #58a6ff;
       color: #58a6ff;
     }
+
     .btn .label {
       font-size: 18px;
       font-weight: 600;
     }
+
     .btn .desc {
       font-size: 12px;
       color: #8b949e;
       font-weight: 400;
     }
+
     .info {
       margin-top: 24px;
       padding: 16px;
@@ -78,9 +97,11 @@
       color: #8b949e;
       line-height: 1.8;
     }
+
     .info strong {
       color: #c9d1d9;
     }
+
     .info code {
       background: #1f2937;
       padding: 2px 6px;
@@ -91,6 +112,7 @@
     }
   </style>
 </head>
+
 <body>
   <div class="container">
     <h1>Marp Tutorial</h1>
@@ -116,4 +138,5 @@
     </div>
   </div>
 </body>
+
 </html>

@@ -130,7 +130,7 @@ Open VSCode now. Follow along.
 
 1. Open VSCode
 2. Go to Extensions (`Ctrl+Shift+X` / `Cmd+Shift+X`)
-3. Search **"Marp for VS Code"**
+3. Search **"Marp for VSCode"**
 4. Click **Install** (Author: Marp Team)
 
 > That's it. No config needed.
@@ -564,9 +564,9 @@ That's it.
 
 ---
 
-## How GitHub Pages Works
+## How a GitHub Pages Website Works
 
-GitHub Pages maps your repo to a URL:
+GitHub Pages provides free static site hosting service which maps your repo to a URL:
 
 ```text
 your-repo/
@@ -601,7 +601,7 @@ Plus a brief explanation of how static websites work.
 ## Resources
 
 - Marp: <https://marp.app>
-- Marp VSCode Extension: search "Marp for VS Code"
+- Marp VSCode Extension: search "Marp for VSCode"
 - Visual Studio Code: <https://code.visualstudio.com>
 - Claude Code: <https://claude.ai/code>
 - This project's Skill: [https://skillsmp.com](https://skillsmp.com/skills/davila7-claude-code-templates-cli-tool-components-skills-creative-design-marp-slide-skill-md)
