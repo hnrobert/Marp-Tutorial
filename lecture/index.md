@@ -598,13 +598,16 @@ Plus a brief explanation of how static websites work.
 
 ---
 
+![bg right](../assets/image/html-site-demo.png)
+
 ## Resources
 
 - Marp: <https://marp.app>
-- Marp VSCode Extension: search "Marp for VSCode"
+- Marp VSCode Extension:
+  search "Marp for VSCode"
 - Visual Studio Code: <https://code.visualstudio.com>
 - Claude Code: <https://claude.ai/code>
-- This project's Skill: [https://skillsmp.com](https://skillsmp.com/skills/davila7-claude-code-templates-cli-tool-components-skills-creative-design-marp-slide-skill-md)
+- This project's Skill: modified version from [https://skillsmp.com](https://skillsmp.com/skills/davila7-claude-code-templates-cli-tool-components-skills-creative-design-marp-slide-skill-md)
 
 ---
 
