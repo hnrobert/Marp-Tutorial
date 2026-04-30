@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Export Required</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: #0d1117;
+      color: #c9d1d9;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    }
+
+    .card {
+      text-align: center;
+      padding: 56px 48px;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      background: #161b22;
+      max-width: 560px;
+      width: 100%;
+    }
+
+    .icon {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #f85149;
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      color: #8b949e;
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+
+    .methods {
+      text-align: left;
+      margin-bottom: 28px;
+    }
+
+    .method {
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 12px;
+      background: #0d1117;
+    }
+
+    .method-label {
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #7ee787;
+      margin-bottom: 8px;
+    }
+
+    code {
+      display: block;
+      background: none;
+      padding: 0;
+      font-size: 13px;
+      color: #79c0ff;
+      font-family: 'Fira Code', Consolas, monospace;
+    }
+
+    ol {
+      margin: 0;
+      padding-left: 20px;
+      font-size: 13px;
+      color: #c9d1d9;
+      line-height: 1.8;
+    }
+
+    kbd {
+      background: #21262d;
+      border: 1px solid #30363d;
+      border-radius: 4px;
+      padding: 1px 6px;
+      font-size: 12px;
+      font-family: 'Fira Code', Consolas, monospace;
+    }
+
+    .back {
+      display: inline-block;
+      color: #8b949e;
+      text-decoration: none;
+      font-size: 14px;
+      padding: 8px 20px;
+      border: 1px solid #30363d;
+      border-radius: 6px;
+      transition: all 0.15s;
+    }
+
+    .back:hover {
+      color: #c9d1d9;
+      border-color: #484f58;
+      background: #21262d;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="icon">&#9888;&#65039;</div>
+    <h1>Slides Not Yet Exported</h1>
+    <p>This page is a placeholder. Choose a method below to export:</p>
+    <div class="methods">
+      <div class="method">
+        <div class="method-label">CLI</div>
+        <code>marp index.md -o index.html</code>
+      </div>
+      <div class="method">
+        <div class="method-label">VSCode</div>
+        <ol>
+          <li>Open <code>index.md</code></li>
+          <li><kbd>&#8984;</kbd> <kbd>&#8679;</kbd> <kbd>P</kbd> to open Command Palette</li>
+          <li>Run <strong>Marp: Export slide deck...</strong></li>
+          <li>Choose <strong>HTML</strong></li>
+        </ol>
+      </div>
+    </div>
+    <a class="back" href="../">&#8592; Back</a>
+  </div>
+</body>
+
+</html>
